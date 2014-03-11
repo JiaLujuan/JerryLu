@@ -1,0 +1,9 @@
+My summary of the content of week 2
+
+Jia Lujuan  13126087
+
+The main content of software quality assurance includes: security system, promote process improvement, guide the implementation of the project, project activities, audit work products, help to solve problems, to provide decision-making reference and the prevention of defects.
+Software testing is the most important part in the software quality assurance.
+Software testing is to ensure that the test plan is created to meet all the system specification requirements; ensure consistent software and specifications after testing and reworked. Software testing is an important activity in software quality assurance work, software testing and software quality assurance is two different levels of work in software quality engineering. Software testing is the process of product software analysis, find out problems appear when running software, data recording error, so as to achieve the purpose of software quality assurance. Can be said that the software testing is a most critical measures of software quality assurance. Establish the independent software testing, test scheme, risk, not only can effectively control software to improve software quality, but also can effectively reduce the cost of quality software.It includes black-box testing ,white-box testing, and other testing ways. We should do the testing according to the different phases.
+Also, there are many processes to ensure the software quality,Defect Measurement and Analysis,V&V in software process,Analysis and Feedback and so on......
+Software quality measure can be promptly delivered to the user, the cost does not exceed the budget, but the most important thing is to ensure that the software can run properly, so the software quality assurance work is very important,
