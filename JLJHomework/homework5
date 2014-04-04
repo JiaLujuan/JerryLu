@@ -1,0 +1,29 @@
+My understanding of formal methods in general and model checking in particular
+
+
+Formal methods in general:
+An alternative to the above is formal methods for specific subset of properties related to
+the overall correctness of software.Other formal model based analyses can also be used to 
+check for certain properties,either by analysts alone or with the help of some software tools, 
+but rarely with fullyautomated support, due to the same reason as noted above.
+All the formal analysis techniques mentioned above are extensions to formal verification
+techniques we described earlier. By restricting to a smaller subset of problems, systems,
+or properties, these techniques may lead to additional opportunities for automation, thus
+making them easier to perform than formal verifications
+So far, the biggest obstacle to formal methods is the high cost associated with the difficult
+task of performing these human intensive activities correctly without adequate automated
+support.
+
+Model checking in particular:
+model checking techniques are gaining popularity in the software engineering research community.
+Various semi-formal methods based on forms or tables, such as (Parnas and Madey, 1995), instead 
+of formal logic or mathematical functions, have found important applications as well.
+For example, state explosion for FSM for large software systems would make model checking 
+impractical unless we focus on the high-level components or functions only. In general, these 
+formal verification and analysis techniques cost more, and in many cases significantly so, than
+testing and inspection, thus limiting their application domains.
+Model checking combines algorithmic checking of propositions through execution with formal assertions 
+stated as the propositions with respect to software systems modeled as finite-state machines.
+Model checking and other formal analyses are closer to inspection and testing, in the sense that
+they may produce counterexamples during model checking or identify problems directly
+during analyses. Such information can then be used to locate and fix related defects.
