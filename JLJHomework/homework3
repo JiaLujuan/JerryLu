@@ -1,0 +1,16 @@
+#一些笔记
+
+
+07:testing decisions:在testing Analysis and foolowup中，feedback and followup,需要进行decision making ，
+然后进行相应的调整improvement，在inout to analysis和analysis and output后，在followup activities中的在进行
+defect analysis and removal后需要进行decision making and management,然后对test process and qulity improvement.
+以及在analysis and followup for overall testing 和analysis：different focuses后的跟踪活动中也需要进行decision
+making and management
+
+08:testing for menbership in paatitions:partition is components in a subsystems, testing for general partition:
+direct predicates on logical variables(test cases的直接来源)
+testing predicates on logical variables:logical variable P as input
+
+Partitions is a special type of checklists
+
+testing for menbership in paatitions:partition is components in a subsystems
