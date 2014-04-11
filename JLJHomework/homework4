@@ -1,0 +1,40 @@
+#一些笔记
+
+
+How to construct DDG?   如何构造数据依赖图
+
+DDG是data dependency graph 数据依赖图
+DFT是data flow testing 数据流测试
+
+在DFT中，一般更直接的从DDGs中获取数据依赖关系，因为数据依赖关系直接影响计算结果
+
+对于DFT,测试准备包括以下几个步骤：
+1，构建和验证DDGs（Build and verify the DDGs）
+2,基于DDG来定义并选择能覆盖单个测试用例的数据片（Define and select data slices to cover as individual test cases 
+based on the DDGs）
+3，通过决定输入值来Sensitize数据片或测试用例（Sensitize the data slices or the test cases by deciding the input values）
+4，结果检查计划（Plan for result checking）
+
+后面的步骤都基于了DDG,因此要关注DDGs的构建，一旦DDGs构建好，slice definition and selection is fairly straightforward, 
+and test case sensitization also directly follows.
+
+We next describe the ways to construct DDGs by first examining the specific characteristis of them, identifying the 
+information sources, outlining a generic DDG construction procedure, and finally an indirect but easy-to-follow
+procedure for people who are familiar with traditional sequential programming and flow-charts
+首先检查具体特性，定义信息源，概述通用的DDG构造步骤，然后最后给熟悉传统顺序编程和流程图的人一个间接地但浅显易懂的过程
+（procedure）
+
+
+DDA,数据依赖分析是基于DDG数据依赖图的
+DDGs的元素：1,每一个节点表示一个数据项
+             节点的分类:输出或结果（代表测试过程的计算结果，需要进行分析）
+                        输入或常量节点（代表用户提供的输入或是预先定义的常量，不需要进行分析）
+                         中间物或存储节点（既不是输出也不是输入，起辅助作用）
+             2, D-U关系（is-used-by关系）“z<--x+y”
+
+DDGs的特征：
+1，There is usually one output data itern or variable, or at most a few of them.(通常有一个输出项或变量，或者最多几个)
+2，There are typically more input variables and constants.（通常有多个输入变量和常量）
+3，Multiple inlinks are common.（通常有多个内链接）
+4，from top to bottom------tree-shaped（树形）
+
